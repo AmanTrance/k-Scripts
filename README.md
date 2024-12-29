@@ -1,3 +1,5 @@
+> This is a raw multi node cluster setup for k8 using kubeadm... 
+
 ```
 Two Scripts are there :
 
@@ -15,3 +17,6 @@ After running these scripts the only thing you need to do is make the "workers n
 use kubeadm token create --print-join-command  to get the token for worker nodes
 
 ```
+
+- After this start applying your pv :> pvc:> deploy/stateful sets/daemon sets :> services :> ingress(if required)
+> order should be like above
